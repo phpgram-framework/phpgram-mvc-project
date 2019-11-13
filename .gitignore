@@ -1,0 +1,4 @@
+# IntelliJ / phpstorm project files
+.idea/
+env.config.php
+vendor/
