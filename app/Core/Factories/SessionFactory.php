@@ -10,7 +10,7 @@ class SessionFactory extends Factories
 	private static $session;
 
 	/**
-	 * @return SessionInterface|StdPhpSession
+	 * @return SessionInterface
 	 */
 	public static function getSession()
 	{
