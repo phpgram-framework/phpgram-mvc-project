@@ -19,7 +19,7 @@ class LoginFactory extends Factories
 	public static function login()
 	{
 		if(!isset(self::$_instance)){
-			self::$_instance = new Login(UserFactory::getUser());
+			self::$_instance = new Login(SessionFactory::getSession(),UserFactory::getUser());
 		}
 
 		return self::$_instance;
@@ -40,6 +40,6 @@ class LoginFactory extends Factories
 			$cookie = new Psr7SimpleCookie();
 		}
 
-		return new LoginCookie(UserFactory::getUser(),$request,$response,$cookie);
+		return new LoginCookie(SessionFactory::getSession(),UserFactory::getUser(),$request,$response,$cookie);
 	}
 }

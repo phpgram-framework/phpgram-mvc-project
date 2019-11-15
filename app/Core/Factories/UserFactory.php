@@ -31,7 +31,7 @@ class UserFactory extends Factories
 	public static function getController()
 	{
 		if(!isset(self::$controller_instance)){
-			self::$controller_instance = new UserController(self::getUser());
+			self::$controller_instance = new UserController(SessionFactory::getSession(),self::getUser());
 		}
 
 		return self::$controller_instance;

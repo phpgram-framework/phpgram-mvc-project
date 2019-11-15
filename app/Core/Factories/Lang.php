@@ -1,8 +1,6 @@
 <?php
 namespace App\Core\Factories;
 
-use Gram\Project\Lib\SessionH;
-
 class Lang extends Factories
 {
 	private static $_instance, $lang, $side, $langs=array();
@@ -10,7 +8,8 @@ class Lang extends Factories
 	/**
 	 * Läd die Sprachdatei
 	 */
-    private function getLangData(){
+    private function getLangData()
+	{
     	self::$langs=self::loadJSON(self::$lang_path.self::$lang.DIRECTORY_SEPARATOR.self::$side.".json");
 	}
 
@@ -21,16 +20,17 @@ class Lang extends Factories
 	 * Gibt die Sprache zurück
 	 * oder false wenn es keine gibt
 	 */
-	public function islang(){
-		$lang=SessionH::get('user','lang');
+	public function islang()
+	{
+		$lang = SessionFactory::getSession()->get('user','lang');
 
 		//wenn sprache nicht gesetzt setzte std sprache in die session
 		if(!$lang){
 			$lang=$this->getStdLang();
 
-			SessionH::set("user",array(
+			SessionFactory::getSession()->set("user",[
 				"lang"=>$lang
-			));
+			]);
 		}
 
 		return $lang;
@@ -41,18 +41,20 @@ class Lang extends Factories
 	 * Setzt die neue auch in den Cookie
 	 * @param mixed $lang
 	 */
-	public static function changeLang($lang){
-    	//session änderung
-		SessionH::set("user",array(
+	public static function changeLang($lang)
+	{
+		//session änderung
+		SessionFactory::getSession()->set("user",[
 			"lang"=>$lang
-		));
+		]);
 	}
 
 	/**
 	 * Gibt die Standardsprache zurück aus der configdatei
 	 * @return mixed|string
 	 */
-	public function getStdLang(){
+	public function getStdLang()
+	{
     	$langs=self::loadJSON(self::$lang_path."suplangs.json");
     	return $langs["stdlang"];
 	}
@@ -61,7 +63,8 @@ class Lang extends Factories
 	 * Gibt alle in der Configdatei enthaltenen Sprachen zurück
 	 * @return mixed|array
 	 */
-	public function getAvaLang(){
+	public function getAvaLang()
+	{
     	$langs=self::loadJSON(self::$lang_path."suplangs.json");
     	unset($langs["stdlang"]);	//Index der Standardsprache wird hier nicht gebraucht
 		return $langs;
@@ -76,7 +79,8 @@ class Lang extends Factories
 	 * Die Id zu dem der Name passt
 	 * @return bool|int|string
 	 */
-	public function getLangById($id,$q=false){
+	public function getLangById($id,$q=false)
+	{
 		$langs=self::loadJSON(self::$lang_path."suplangs.json");
 
 		//Gibt namen der Sprache zurück
@@ -98,7 +102,8 @@ class Lang extends Factories
 	 * Gibt ein neues Objekt zurück
 	 * @return Lang
 	 */
-	public static function lang() {
+	public static function lang()
+	{
 		if(!isset(self::$_instance)) {
 			self::$_instance = new Lang();
 		}
@@ -113,7 +118,8 @@ class Lang extends Factories
 	 * welcher Teil der Seite steht der String
      * @return mixed|string
      */
-    public static function getLang($side,$part){
+    public static function getLang($side,$part)
+	{
 		$lang = self::lang()->islang();	//Ausgewählte Sprache
 
         //wenn noch keine instance erzeugt bzw sprache geändert wurde
