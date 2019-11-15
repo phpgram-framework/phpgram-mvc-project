@@ -13,7 +13,7 @@
 
 namespace App\Core\Auth;
 
-use Gram\Project\Lib\SessionH;
+use App\Core\Factories\SessionFactory;
 
 class AuthToken
 {
@@ -30,14 +30,14 @@ class AuthToken
 
 		//setze Token in die Session um es beim form absenden zu überprüfen
 		if($session){
-			SessionH::set('token',$token);
+			SessionFactory::getSession()->set('token',$token);
 		}
 
 		return $token;		//gebe Token zurück um es ins form ein zubinden
 	}
 
 	public static function validToken($token){
-		return (SessionH::get('token') == $token);
+		return (SessionFactory::getSession()->get('token') == $token);
 	}
 
 	public static function csrf()
