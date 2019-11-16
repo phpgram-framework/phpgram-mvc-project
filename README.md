@@ -39,4 +39,7 @@ $ composer create-project phpgram/mvc
 ## Documentation
 - [start](https://gitlab.com/grammm/php-gram/phpgram-mvc-project/tree/master/.docs/index.md)
 
+## License
+
+phpgram is open source and under [MIT License](https://gitlab.com/grammm/php-gram/phpgram-mvc-project/blob/master/LICENSE)
 
