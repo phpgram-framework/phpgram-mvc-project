@@ -2,4 +2,4 @@
 .docs/ export-ignore
 .gitattributes export-ignore
 LICENSE export-ignore
-composer.lock
+composer.lock export-ignore
