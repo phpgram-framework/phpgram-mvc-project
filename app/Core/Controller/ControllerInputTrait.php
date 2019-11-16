@@ -1,4 +1,16 @@
 <?php
+/**
+ * phpgram mvc
+ *
+ * This File is part of the phpgram mvc framework
+ *
+ * Web: https://gitlab.com/grammm/php-gram/phpgram-mvc-project
+ *
+ * @license https://gitlab.com/grammm/php-gram/phpgram-mvc-projectblob/master/LICENSE
+ *
+ * @author Jörn Heinemann <joernheinemann@gmx.de>
+ */
+
 namespace App\Core\Controller;
 
 use Gram\Project\Lib\Input;
