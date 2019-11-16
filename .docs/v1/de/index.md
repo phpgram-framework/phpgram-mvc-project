@@ -99,14 +99,11 @@ class DummyController extends BaseController
 	<h2>Test Template</h2>
 	
 	<p>Welcome to phpgram mvc framework!</p>
-
-
 <?php $this->end('content');?>
 
 ````
 
 - `$this->extend('defaultview');` gibt an welches Template mit dem akutellen erweitert werden soll
-
 	- gut geeignet um das grundlegende Layout aus zulagern und den Inhalt mit den einzelnen Templates erweitern 
 
 - `$this->assign('h1',"Headline");` Definiert eine Variable auf die dann das erweiterte Template zugreifen kann
