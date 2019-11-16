@@ -36,3 +36,7 @@ $ composer create-project phpgram/mvc
 	- for **ROOT_URL_PATH** = the relative Url Path (e.g.: `hello.de/my_folder/` -> `/my_folder` is the path)
 3. done :) 
 
+## Documentation
+- [start](https://gitlab.com/grammm/php-gram/phpgram-mvc-project/tree/master/.docs/index.md)
+
+
