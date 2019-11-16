@@ -1,5 +1,5 @@
 {
-	"name": "phpgram/mvc-project",
+	"name": "phpgram/mvc",
 	"license": "MIT",
 	"type": "project",
 	"description": "A php mvc project build on top of phpgram",
