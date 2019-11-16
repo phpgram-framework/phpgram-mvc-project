@@ -10,7 +10,7 @@ class DummyController extends BaseController
 	public function dummyFunction()
 	{
 		return $this->view($this->tpl,[
-			'msg'=>"Ein Test Controller"
+			'msg'=>"Test Controller"
 		]);
 	}
 }
