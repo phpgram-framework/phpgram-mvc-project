@@ -129,7 +129,7 @@ class DummyController extends BaseController
 </head>
 
 <body>
-	<h1><?= $hi?></h1>
+	<h1><?= $h1?></h1>
 	
 	<div class="content">
 		
