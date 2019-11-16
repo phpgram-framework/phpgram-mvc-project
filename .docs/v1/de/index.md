@@ -132,11 +132,11 @@ class DummyController extends BaseController
 	<h1><?= $hi?></h1>
 	
 	<div class="content">
-		<p>
-    		<?= $content?>
-    	</p>
+		
+		<p> <?= $content?> </p>
     	
     	<?= $my_awesome_button?>
+    	
 	</div>
 </body>
 
