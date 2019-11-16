@@ -16,7 +16,7 @@ $routeOptions= [
 use Gram\Project\App\AppFactory;
 use Gram\Project\Lib\View\Strategy\GramViewStrategy;
 
-//AppFactory::setRouterOptions($routeOptions);
+AppFactory::setRouterOptions($routeOptions);
 AppFactory::setStrategy(new GramViewStrategy());
 AppFactory::setBase(getenv('ROOT_URL_PATH'));
 
