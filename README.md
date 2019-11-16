@@ -7,11 +7,11 @@
 [![Packagist](https://img.shields.io/packagist/l/phpgram/mvc)](https://gitlab.com/grammm/php-gram/phpgram-mvc-project/blob/master/LICENSE)
 
 
-### A fast and lightweight Mvc framework 
+## A fast and lightweight Mvc framework 
 
 #### Build on top of [phpgram](https://gitlab.com/grammm/php-gram/phpgram) micro framework
 
-### Features
+## Features
 - Http Routing based on [nikic fastroute](https://github.com/nikic/FastRoute)
 - [Psr 7](https://www.php-fig.org/psr/psr-7/) Request and Response with [Nyholm](https://github.com/Nyholm/psr7)
 - [Psr 15](https://www.php-fig.org/psr/psr-15/) Middleware support
