@@ -18,6 +18,33 @@ use Gram\Project\App\AppFactory as Route;
 
 Route::get("route","handler");
 ```
+- jeder Route können eigene Middleware und Strategies zugeteilt werden (siehe [Middleware](middleware.md))
+
+## Route Gruppen
+
+- Routes können auch gruppiert werden
+
+- jede Gruppe bekommt ein prefix (kann auch ein leerer string sein)
+
+- jeder Gruppe können eigene Middleware und Strategies zugeteilt werden
+
+- Routes die eine bestimmte Middleware benötigen sollten daher in einer Gruppe sein
+
+- Routes die das gleiche prefix haben (z. B. "/admin") sollten ebenfalls in einer Gruppe sein
+
+````php
+<?php
+use Gram\Project\App\AppFactory as Route;
+
+Route::addGroup("/user/",function (){
+	Route::get("/{id}","handler");
+	Route::get("/{id}/edit","handler");
+	Route::get("add","handler");
+});
+````
+- das prefix `/user/` muss somit nicht vor jede Route geschrieben werden
+
+- nested Groups sind ebenfalls möglich
 
 ## Route Handler
 
@@ -191,3 +218,65 @@ StdParser::addDataTyp('langs','es|ru|fr');
 
 ## Http Method
 
+- Routes können für eine bestimmte Http Method angegeben werden
+
+- in den Beispielen wurde get genutzt
+
+- weitere sind:
+
+````php
+<?php
+use Gram\Project\App\AppFactory as Route;
+
+//Http Methods
+
+//get
+Route::get("/user/{id}",function ($id){
+	return $id;
+});
+
+//post
+Route::post("/user/{id}",function ($id){
+	return $id;
+});
+
+//get and post
+Route::getpost("/user/{id}",function ($id){
+	return $id;
+});
+
+//delete
+Route::delete("/user/{id}",function ($id){
+	return $id;
+});
+
+//put
+Route::put("/user/{id}",function ($id){
+	return $id;
+});
+
+//patch
+Route::patch("/user/{id}",function ($id){
+	return $id;
+});
+
+//head
+Route::head("/user/{id}",function ($id){
+	return $id;
+});
+
+//options
+Route::options("/user/{id}",function ($id){
+	return $id;
+});
+
+//any Method
+Route::any("/user/{id}",function ($id){
+	return $id;
+});
+
+//custom Methods define with an array
+Route::add("/user/{id}",function ($id){
+	return $id;
+},['GET','POST','PUT']);
+````
