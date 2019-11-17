@@ -1,14 +1,6 @@
 # Basic Usage
 
-## Routes definieren 
-
-- Routes legen fest was bei welcher url aufgerufen werden muss
-
-- für normale Requests in der Datei /routes/web.routes.php
-
-- für ajax Requests in /routes/api.routes.php 
-
-- macht technisch keinen Unterschied, es wird dadurch übersichtlicher
+## [Routes](routes.md) definieren 
 
 ````php
 <?php
