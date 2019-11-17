@@ -1,5 +1,7 @@
 # Routes
 
+- siehe auch: https://gitlab.com/grammm/php-gram/phpgram/blob/master/docs/v1/de/Use/route.md
+
 ## Allgemein
 
 - Routes legen fest was bei welcher Url aufgerufen werden muss (Handler)
