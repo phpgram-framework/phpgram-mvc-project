@@ -1,6 +1,2 @@
 #Options -Indexes
 RewriteCond %{HTTP_REFERER} [NC]
-#RewriteRule \.(mp4)$ - [F]
-
-# Speert alle Seiten auser die Seite auf der das Video aufgerufen wird
-# Source: https://stackoverflow.com/questions/10236717/how-to-prevent-a-file-from-direct-url-access
