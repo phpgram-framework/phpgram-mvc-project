@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c226f47b1df20ed2b9273270ce24b33",
+    "content-hash": "beb46e9570697ad4bf33ce02d7f49ee9",
     "packages": [
         {
             "name": "nyholm/psr7",
@@ -220,16 +220,16 @@
         },
         {
             "name": "phpgram/framework-lib",
-            "version": "0.2.3",
+            "version": "0.2.4",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram-framework-lib.git",
-                "reference": "48f0fbe34f41d8748ba6e0284fe3cbc3ac5383e2"
+                "reference": "ef6d1c381783e8c02d53636548110aa332034f1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework-lib/repository/archive.zip?sha=48f0fbe34f41d8748ba6e0284fe3cbc3ac5383e2",
-                "reference": "48f0fbe34f41d8748ba6e0284fe3cbc3ac5383e2",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework-lib/repository/archive.zip?sha=ef6d1c381783e8c02d53636548110aa332034f1b",
+                "reference": "ef6d1c381783e8c02d53636548110aa332034f1b",
                 "shasum": ""
             },
             "require": {
@@ -263,7 +263,7 @@
                 "php",
                 "phpgram"
             ],
-            "time": "2019-11-17T18:34:12+00:00"
+            "time": "2019-11-24T10:48:18+00:00"
         },
         {
             "name": "phpgram/phpgram",
