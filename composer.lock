@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "beb46e9570697ad4bf33ce02d7f49ee9",
+    "content-hash": "c314b2e06b2be99bc064067d45b88d0c",
     "packages": [
         {
             "name": "nyholm/psr7",
@@ -220,16 +220,16 @@
         },
         {
             "name": "phpgram/framework-lib",
-            "version": "0.2.4",
+            "version": "0.2.5",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram-framework-lib.git",
-                "reference": "ef6d1c381783e8c02d53636548110aa332034f1b"
+                "reference": "3ab4597b821685b13a23fb297fcbecc4956c89c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework-lib/repository/archive.zip?sha=ef6d1c381783e8c02d53636548110aa332034f1b",
-                "reference": "ef6d1c381783e8c02d53636548110aa332034f1b",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework-lib/repository/archive.zip?sha=3ab4597b821685b13a23fb297fcbecc4956c89c6",
+                "reference": "3ab4597b821685b13a23fb297fcbecc4956c89c6",
                 "shasum": ""
             },
             "require": {
@@ -241,10 +241,7 @@
             "autoload": {
                 "psr-4": {
                     "Gram\\Project\\Lib\\": "src/"
-                },
-                "files": [
-                    "src/functions/helpers.php"
-                ]
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -263,20 +260,66 @@
                 "php",
                 "phpgram"
             ],
-            "time": "2019-11-24T10:48:18+00:00"
+            "time": "2019-12-06T14:01:56+00:00"
         },
         {
-            "name": "phpgram/phpgram",
-            "version": "1.3.1",
+            "name": "phpgram/mvc-lib",
+            "version": "0.0.1",
             "source": {
                 "type": "git",
-                "url": "https://gitlab.com/grammm/php-gram/phpgram.git",
-                "reference": "29d34e9e5dded541cbbb7f256dece53561a99bd7"
+                "url": "https://gitlab.com/grammm/php-gram/phpgram-mvc-lib.git",
+                "reference": "1464d664b719e07adf2bce964766f29fe8fa00bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram/repository/archive.zip?sha=29d34e9e5dded541cbbb7f256dece53561a99bd7",
-                "reference": "29d34e9e5dded541cbbb7f256dece53561a99bd7",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-mvc-lib/repository/archive.zip?sha=1464d664b719e07adf2bce964766f29fe8fa00bd",
+                "reference": "1464d664b719e07adf2bce964766f29fe8fa00bd",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "phpgram/framework-lib": "0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gram\\Mvc\\Lib\\": "src/"
+                },
+                "files": [
+                    "src/functions/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jörn Heinemann",
+                    "email": "joernheinemann@gmx.de"
+                }
+            ],
+            "description": "Lib for the phpgram mvc framework",
+            "keywords": [
+                "gram",
+                "mvc",
+                "php",
+                "phpgram"
+            ],
+            "time": "2019-12-06T14:03:18+00:00"
+        },
+        {
+            "name": "phpgram/phpgram",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/grammm/php-gram/phpgram.git",
+                "reference": "d4e1fb713935a68627cedf69a08af87ebbb85b70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram/repository/archive.zip?sha=d4e1fb713935a68627cedf69a08af87ebbb85b70",
+                "reference": "d4e1fb713935a68627cedf69a08af87ebbb85b70",
                 "shasum": ""
             },
             "require": {
@@ -296,7 +339,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3.x-dev"
+                    "dev-master": "1.4.x-dev"
                 }
             },
             "autoload": {
@@ -330,7 +373,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2019-11-05T13:17:09+00:00"
+            "time": "2019-12-06T14:23:59+00:00"
         },
         {
             "name": "pimple/pimple",
