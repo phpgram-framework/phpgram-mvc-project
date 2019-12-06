@@ -4,7 +4,7 @@
  */
 use Gram\Project\App\AppFactory as Route;
 
-use App\Core\Factories\ViewFactory as View;
+use Gram\Mvc\Lib\Factories\ViewFactory as View;
 
 use App\Http\Controller\DummyController;
 

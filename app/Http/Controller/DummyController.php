@@ -1,7 +1,7 @@
 <?php
 namespace App\Http\Controller;
 
-use App\Core\Controller\BaseController;
+use Gram\Mvc\Lib\Controller\BaseController;
 
 class DummyController extends BaseController
 {
