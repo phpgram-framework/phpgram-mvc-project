@@ -13,7 +13,8 @@
 	"require": {
 		"phpgram/phpgram": "^1.4.0",
 		"phpgram/framework": "^1.1.0",
-		"phpgram/framework-lib": "^0.2.4",
+		"phpgram/framework-lib": "^0.2.5",
+		"phpgram/mvc-lib": "^0.0.1",
 		"php": "^7.1",
 		"pimple/pimple":"3.2.3"
 	},
