@@ -16,7 +16,7 @@ define("TEMPCACHE",VIEWS."cache".DIRECTORY_SEPARATOR);
 //Userdata
 define("STORAGE",ROOTPATH.DIRECTORY_SEPARATOR."storage".DIRECTORY_SEPARATOR);
 
-use App\Core\Factories\Factories;
+use Gram\Mvc\Lib\Factories\Factories;
 
 Factories::setUser('\App\Model\User');
 Factories::setViewOptions(TEMPLATES);
