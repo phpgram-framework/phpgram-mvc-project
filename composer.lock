@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c314b2e06b2be99bc064067d45b88d0c",
+    "content-hash": "a3dfddc907eafd03bead824415d465b9",
     "packages": [
         {
             "name": "nyholm/psr7",
@@ -172,16 +172,16 @@
         },
         {
             "name": "phpgram/framework",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram-framework.git",
-                "reference": "4b1e94cb845417f126edef47df25baf12e0fa418"
+                "reference": "531b2199a6cc2674f1f2da94697438744284fd08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework/repository/archive.zip?sha=4b1e94cb845417f126edef47df25baf12e0fa418",
-                "reference": "4b1e94cb845417f126edef47df25baf12e0fa418",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework/repository/archive.zip?sha=531b2199a6cc2674f1f2da94697438744284fd08",
+                "reference": "531b2199a6cc2674f1f2da94697438744284fd08",
                 "shasum": ""
             },
             "require": {
@@ -216,7 +216,7 @@
                 "php",
                 "phpgram"
             ],
-            "time": "2019-11-17T19:38:24+00:00"
+            "time": "2019-12-09T22:50:39+00:00"
         },
         {
             "name": "phpgram/framework-lib",
@@ -310,16 +310,16 @@
         },
         {
             "name": "phpgram/phpgram",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram.git",
-                "reference": "d4e1fb713935a68627cedf69a08af87ebbb85b70"
+                "reference": "ddae7d26d8b4614a6acf659f11e96a117f7e0d44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram/repository/archive.zip?sha=d4e1fb713935a68627cedf69a08af87ebbb85b70",
-                "reference": "d4e1fb713935a68627cedf69a08af87ebbb85b70",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram/repository/archive.zip?sha=ddae7d26d8b4614a6acf659f11e96a117f7e0d44",
+                "reference": "ddae7d26d8b4614a6acf659f11e96a117f7e0d44",
                 "shasum": ""
             },
             "require": {
@@ -373,7 +373,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2019-12-06T14:23:59+00:00"
+            "time": "2019-12-09T22:43:16+00:00"
         },
         {
             "name": "pimple/pimple",
