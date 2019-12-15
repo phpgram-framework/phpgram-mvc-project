@@ -11,10 +11,10 @@
 		"project"
 	],
 	"require": {
-		"phpgram/phpgram": "^1.4.1",
-		"phpgram/framework": "^1.2.0",
+		"phpgram/phpgram": "^1.4.2",
+		"phpgram/framework": "^1.2.1",
 		"phpgram/framework-lib": "^0.3.1",
-		"phpgram/mvc-lib": "^0.0.1",
+		"phpgram/mvc-lib": "^0.0.2",
 		"php": "^7.1",
 		"pimple/pimple":"3.2.3"
 	},
