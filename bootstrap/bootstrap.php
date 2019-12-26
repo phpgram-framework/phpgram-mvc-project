@@ -4,12 +4,11 @@ require_once "constant.php";
 
 require_once "../config/config.router.php";
 
-require_once "../config/page/page.config.php";
+require_once "../config/page.config.php";
 
 $routeOptions= [
 	'caching'=>ROUTECACHING,
 	'cache'=>ROUTECACHE,
-	'check_method'=>CHECKRM,
 	'slash_trim'=>STRIM
 ];
 

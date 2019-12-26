@@ -3,9 +3,6 @@
  * Configdatei für das Routing
  */
 
-//Soll Routingmethode geprüft werden
-const CHECKRM = true;
-
 //Soll der letze / von der URL ignoriert werden
 const STRIM = true;
 

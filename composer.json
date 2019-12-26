@@ -8,19 +8,32 @@
 		"phpgram",
 		"php",
 		"framework",
-		"project"
+		"project",
+		"mvc",
+		"Model View Controller",
+		"asynchronous",
+		"async",
+		"Psr 7",
+		"Psr 15",
+		"Psr 17",
+		"Psr 11",
+		"Psr 16"
 	],
 	"require": {
+		"php": "^7.1",
 		"phpgram/phpgram": "^1.5.0",
 		"phpgram/framework": "^1.2.1",
 		"phpgram/framework-lib": "^0.3.2",
 		"phpgram/mvc-lib": "^0.0.2",
-		"php": "^7.1",
 		"pimple/pimple":"3.2.3"
 	},
 	"autoload": {
 		"psr-4": {
 			"App\\":"app/"
 		}
+	},
+	"suggest": {
+		"react/react": "For asynchronous Requests",
+		"php-pm/php-pm": "For asynchronous Requests"
 	}
 }
