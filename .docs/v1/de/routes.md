@@ -38,7 +38,7 @@ Route::get("route","handler");
 <?php
 use Gram\Project\App\AppFactory as Route;
 
-Route::addGroup("/user/",function (){
+Route::group("/user/",function (){
 	Route::get("/{id}","handler");
 	Route::get("/{id}/edit","handler");
 	Route::get("add","handler");

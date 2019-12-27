@@ -28,6 +28,8 @@
 
 - Basic Psr 7 Cookies
 
+- **Async Requests ready**
+
 ## Installation
 
 #### via [composer](https://getcomposer.org/)
