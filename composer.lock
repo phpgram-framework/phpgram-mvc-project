@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram-framework.git",
-                "reference": "775987a749a419ec478241be0db4223166e132d7"
+                "reference": "ff8a4c4cb998e35b9c4576c44c9e71ff9597a162"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework/repository/archive.zip?sha=775987a749a419ec478241be0db4223166e132d7",
-                "reference": "775987a749a419ec478241be0db4223166e132d7",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework/repository/archive.zip?sha=ff8a4c4cb998e35b9c4576c44c9e71ff9597a162",
+                "reference": "ff8a4c4cb998e35b9c4576c44c9e71ff9597a162",
                 "shasum": ""
             },
             "require": {
@@ -213,7 +213,7 @@
                 "php",
                 "phpgram"
             ],
-            "time": "2019-12-27T17:27:37+00:00"
+            "time": "2019-12-29T14:07:04+00:00"
         },
         {
             "name": "phpgram/framework-lib",
@@ -221,12 +221,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram-framework-lib.git",
-                "reference": "a7f5665c3166320da9216db17dbc852ba3eef88a"
+                "reference": "ce32255b2bb7aa8787dcf38ca90fe5ea9f236014"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework-lib/repository/archive.zip?sha=a7f5665c3166320da9216db17dbc852ba3eef88a",
-                "reference": "a7f5665c3166320da9216db17dbc852ba3eef88a",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework-lib/repository/archive.zip?sha=ce32255b2bb7aa8787dcf38ca90fe5ea9f236014",
+                "reference": "ce32255b2bb7aa8787dcf38ca90fe5ea9f236014",
                 "shasum": ""
             },
             "require": {
@@ -257,7 +257,7 @@
                 "php",
                 "phpgram"
             ],
-            "time": "2019-12-27T00:06:12+00:00"
+            "time": "2019-12-29T18:07:41+00:00"
         },
         {
             "name": "phpgram/mvc-lib",
@@ -311,12 +311,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram.git",
-                "reference": "203e7820a4a0563a85115fb69602f5f710934518"
+                "reference": "9e548dfcab1e70ae9aa9f1af4e2c86463621cdec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram/repository/archive.zip?sha=203e7820a4a0563a85115fb69602f5f710934518",
-                "reference": "203e7820a4a0563a85115fb69602f5f710934518",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram/repository/archive.zip?sha=9e548dfcab1e70ae9aa9f1af4e2c86463621cdec",
+                "reference": "9e548dfcab1e70ae9aa9f1af4e2c86463621cdec",
                 "shasum": ""
             },
             "require": {
@@ -372,7 +372,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2019-12-27T19:12:35+00:00"
+            "time": "2019-12-29T17:37:27+00:00"
         },
         {
             "name": "pimple/pimple",
