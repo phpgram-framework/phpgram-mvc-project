@@ -12,7 +12,7 @@
 #### Build on top of [phpgram](https://gitlab.com/grammm/php-gram/phpgram) micro framework
 
 ## Features
-- Http Routing based on [nikic fastroute](https://github.com/nikic/FastRoute)
+- Simple and fast Http Routing
 
 - [Psr 7](https://www.php-fig.org/psr/psr-7/) Request and Response with [Nyholm](https://github.com/Nyholm/psr7)
 
@@ -20,7 +20,7 @@
 
 - [Psr 17](https://www.php-fig.org/psr/psr-17/) Factory with [Nyholm](https://github.com/Nyholm/psr7)
 
-- Auto Dependency Injection with [Psr 11 Container](https://www.php-fig.org/psr/psr-11/). Container from [pimple](https://github.com/silexphp/Pimple)
+- Dependency Injection with [Psr 11 Container](https://www.php-fig.org/psr/psr-11/). Container from [pimple](https://github.com/silexphp/Pimple)
 
 - Php Template System
 
@@ -47,8 +47,7 @@ $ composer create-project phpgram/mvc
 
 3. done :) 
 
-## Documentation
-- [start](https://gitlab.com/grammm/php-gram/phpgram-mvc-project/tree/master/.docs/index.md)
+## [Documentation](https://gitlab.com/grammm/php-gram/phpgram-mvc-project/tree/master/.docs/index.md)
 
 ## License
 
