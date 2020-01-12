@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a79760a803f4204caf755887a7e88236",
+    "content-hash": "561a7f5b276cc8680f148610963df18d",
     "packages": [
         {
             "name": "nyholm/psr7",
@@ -221,12 +221,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram-framework-lib.git",
-                "reference": "ce32255b2bb7aa8787dcf38ca90fe5ea9f236014"
+                "reference": "e2483a1832916af816aa53fd71e59e3daa0e2619"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework-lib/repository/archive.zip?sha=ce32255b2bb7aa8787dcf38ca90fe5ea9f236014",
-                "reference": "ce32255b2bb7aa8787dcf38ca90fe5ea9f236014",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework-lib/repository/archive.zip?sha=e2483a1832916af816aa53fd71e59e3daa0e2619",
+                "reference": "e2483a1832916af816aa53fd71e59e3daa0e2619",
                 "shasum": ""
             },
             "require": {
@@ -265,12 +265,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram-mvc-lib.git",
-                "reference": "b5ea5ddc40520b4dbbbbb0cd8982a1092a700c1b"
+                "reference": "a73503ffba6f2cc7cc7b3cd3073f766633f0e755"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-mvc-lib/repository/archive.zip?sha=b5ea5ddc40520b4dbbbbb0cd8982a1092a700c1b",
-                "reference": "b5ea5ddc40520b4dbbbbb0cd8982a1092a700c1b",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-mvc-lib/repository/archive.zip?sha=a73503ffba6f2cc7cc7b3cd3073f766633f0e755",
+                "reference": "a73503ffba6f2cc7cc7b3cd3073f766633f0e755",
                 "shasum": ""
             },
             "require": {
@@ -307,16 +307,16 @@
         },
         {
             "name": "phpgram/phpgram",
-            "version": "1.5.0",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram.git",
-                "reference": "9e548dfcab1e70ae9aa9f1af4e2c86463621cdec"
+                "reference": "0de4d093e2492307b78f6668bd029f360ee684da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram/repository/archive.zip?sha=9e548dfcab1e70ae9aa9f1af4e2c86463621cdec",
-                "reference": "9e548dfcab1e70ae9aa9f1af4e2c86463621cdec",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram/repository/archive.zip?sha=0de4d093e2492307b78f6668bd029f360ee684da",
+                "reference": "0de4d093e2492307b78f6668bd029f360ee684da",
                 "shasum": ""
             },
             "require": {
@@ -372,7 +372,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2019-12-29T17:37:27+00:00"
+            "time": "2020-01-12T22:26:52+00:00"
         },
         {
             "name": "pimple/pimple",
