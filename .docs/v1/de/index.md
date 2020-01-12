@@ -36,7 +36,7 @@ Route::get("/controller",DummyController::class."@dummyFunction");
 ````php
 <?php
 
-use App\Core\Controller\BaseController;
+use Gram\Mvc\Lib\Controller\BaseController;
 
 class DummyController extends BaseController
 {

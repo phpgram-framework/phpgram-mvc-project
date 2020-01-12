@@ -49,6 +49,121 @@ $ composer create-project phpgram/mvc
 
 ## [Documentation](https://gitlab.com/grammm/php-gram/phpgram-mvc-project/tree/master/.docs/index.md)
 
+### Define Routes
+
+````php
+<?php
+//file /routes/web.routes.php
+
+use Gram\Project\App\AppFactory as Route;
+
+use App\Http\Controller\DummyController;
+
+//With function as handler
+// for Url: / its return: This page is the Start
+Route::get("/",function (){
+	return "This page is the Start";
+});
+
+//with Controller (Class) as handler
+//at Url: /controller: instantiate class DummyController (incl Dependency Injection) and call the method dummyFunction()
+Route::get("/controller",DummyController::class."@dummyFunction");
+
+//call this method with the value of id
+Route::get("/user/{id}",DummyController::class."@dummyFunctionWithArgs");
+````
+### Define Controller
+
+````php
+<?php
+//file: app/Http/Controller/DummyController.php
+
+namespace App\Http\Controller;
+
+use Gram\Mvc\Lib\Controller\BaseController;
+
+class DummyController extends BaseController
+{
+	private $tpl = 'index.temp';	//template without the .php!
+
+	public function dummyFunction()
+	{
+		return $this->view($this->tpl,[
+			'msg'=>"Test Controller"
+		]);
+	}
+	
+	public function dummyFunctionWithArgs($id)
+	{
+		return $this->view($this->tpl,[
+			'userId'=>$id
+		]);
+	}
+}
+````
+### Define Templates
+
+````php
+<?php
+	//file index.temp.php
+$this->extend('defaultview'); //Values will being save for defaultview
+
+$this->assign('h1',"Headline");	//assign variable h1 with the value Headline
+
+//assign multiple variables at once
+$this->assignArray([
+	'title'=>"Test page",
+	'my_awesome_button'=>"<button>Button</button>"
+]);
+?>
+
+<?php 
+//Starts a section. The content will be buffered
+$this->start();?>
+	<script type="text/javascript">
+		alert("Hello! I am an alert box!!");
+	</script>
+
+	<style></style>
+<?php 
+//the content of this section will be available as variable head
+$this->end('head');?>
+
+
+<?php $this->start();?>
+	<h2>Test Template</h2>
+	
+	<p>Welcome to phpgram mvc framework!</p>
+<?php $this->end('content');?>
+
+````
+````php
+<?php
+	//file defaultview.php
+?>
+
+<html>
+
+<head>
+	<?= $title?>
+	<?= $head?>
+</head>
+
+<body>
+	<h1><?= $h1?></h1>
+	
+	<div class="content">
+		
+		<p> <?= $content?> </p>
+    	
+    	<?= $my_awesome_button?>
+    	
+	</div>
+</body>
+
+</html>
+````
+
 ## License
 
 phpgram is open source and under [MIT License](https://gitlab.com/grammm/php-gram/phpgram-mvc-project/blob/master/LICENSE)
