@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "561a7f5b276cc8680f148610963df18d",
+    "content-hash": "59beeb507430a4e89991ff8dc7f9e8be",
     "packages": [
         {
             "name": "nyholm/psr7",
@@ -172,23 +172,23 @@
         },
         {
             "name": "phpgram/framework",
-            "version": "1.2.2",
+            "version": "1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram-framework.git",
-                "reference": "ff8a4c4cb998e35b9c4576c44c9e71ff9597a162"
+                "reference": "32e9787c32bd3b6ff906e30feb63604965e2e66f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework/repository/archive.zip?sha=ff8a4c4cb998e35b9c4576c44c9e71ff9597a162",
-                "reference": "ff8a4c4cb998e35b9c4576c44c9e71ff9597a162",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework/repository/archive.zip?sha=32e9787c32bd3b6ff906e30feb63604965e2e66f",
+                "reference": "32e9787c32bd3b6ff906e30feb63604965e2e66f",
                 "shasum": ""
             },
             "require": {
                 "nyholm/psr7": "1.2.0",
                 "nyholm/psr7-server": "^0.3.0",
                 "php": "^7.1",
-                "phpgram/phpgram": "^1.5.0"
+                "phpgram/phpgram": "^1.6.0"
             },
             "type": "library",
             "autoload": {
@@ -213,7 +213,7 @@
                 "php",
                 "phpgram"
             ],
-            "time": "2019-12-29T14:07:04+00:00"
+            "time": "2020-01-21T16:02:06+00:00"
         },
         {
             "name": "phpgram/framework-lib",
@@ -307,16 +307,16 @@
         },
         {
             "name": "phpgram/phpgram",
-            "version": "1.5.2",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram.git",
-                "reference": "0de4d093e2492307b78f6668bd029f360ee684da"
+                "reference": "cc5eb93bb976a2cd1015b4ca3c5b91291dffcf7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram/repository/archive.zip?sha=0de4d093e2492307b78f6668bd029f360ee684da",
-                "reference": "0de4d093e2492307b78f6668bd029f360ee684da",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram/repository/archive.zip?sha=cc5eb93bb976a2cd1015b4ca3c5b91291dffcf7e",
+                "reference": "cc5eb93bb976a2cd1015b4ca3c5b91291dffcf7e",
                 "shasum": ""
             },
             "require": {
@@ -336,7 +336,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5.x-dev"
+                    "dev-master": "1.6.x-dev"
                 }
             },
             "autoload": {
@@ -357,14 +357,17 @@
             "description": "A very fast and lightweight Php Framework for small to enterprise applications. Also supports Asynchronous Requests",
             "keywords": [
                 "PSR 17",
+                "api",
                 "async",
                 "asynchronous",
                 "di container",
                 "framework",
+                "frameworks",
                 "gram",
+                "micro",
                 "micro framework",
+                "micro frameworks",
                 "middleware",
-                "php",
                 "phpgram",
                 "psr 11",
                 "psr 15",
@@ -372,7 +375,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2020-01-12T22:26:52+00:00"
+            "time": "2020-01-23T15:15:36+00:00"
         },
         {
             "name": "pimple/pimple",
