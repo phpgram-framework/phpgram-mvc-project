@@ -24,8 +24,8 @@
 		"php": "^7.1",
 		"phpgram/phpgram": "^1.6.2",
 		"phpgram/framework": "^1.2.4",
-		"phpgram/framework-lib": "^0.3.3",
-		"phpgram/mvc-lib": "^0.0.3",
+		"phpgram/framework-lib": "^0.4.0",
+		"phpgram/mvc-lib": "^0.0.4",
 		"pimple/pimple":"3.2.3"
 	},
 	"autoload": {

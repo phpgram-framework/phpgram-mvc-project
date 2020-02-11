@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8d5f722bf37d87324734910cc838c58",
+    "content-hash": "c1c721f5800cbd4a3f5f38e4e1edfd14",
     "packages": [
         {
             "name": "nyholm/psr7",
@@ -217,21 +217,21 @@
         },
         {
             "name": "phpgram/framework-lib",
-            "version": "0.3.3",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram-framework-lib.git",
-                "reference": "e2483a1832916af816aa53fd71e59e3daa0e2619"
+                "reference": "7d7d8923f0954564b80453c65b662f1b664f574c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework-lib/repository/archive.zip?sha=e2483a1832916af816aa53fd71e59e3daa0e2619",
-                "reference": "e2483a1832916af816aa53fd71e59e3daa0e2619",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework-lib/repository/archive.zip?sha=7d7d8923f0954564b80453c65b662f1b664f574c",
+                "reference": "7d7d8923f0954564b80453c65b662f1b664f574c",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1",
-                "phpgram/phpgram": "^1.5.0",
+                "phpgram/phpgram": "^1.6.2",
                 "psr/simple-cache": "1.0.1"
             },
             "type": "library",
@@ -257,25 +257,25 @@
                 "php",
                 "phpgram"
             ],
-            "time": "2019-12-29T18:07:41+00:00"
+            "time": "2020-02-11T22:20:33+00:00"
         },
         {
             "name": "phpgram/mvc-lib",
-            "version": "0.0.3",
+            "version": "0.0.4",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram-mvc-lib.git",
-                "reference": "a73503ffba6f2cc7cc7b3cd3073f766633f0e755"
+                "reference": "6b4e24609b05639c311e8b440e8012a351aba328"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-mvc-lib/repository/archive.zip?sha=a73503ffba6f2cc7cc7b3cd3073f766633f0e755",
-                "reference": "a73503ffba6f2cc7cc7b3cd3073f766633f0e755",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-mvc-lib/repository/archive.zip?sha=6b4e24609b05639c311e8b440e8012a351aba328",
+                "reference": "6b4e24609b05639c311e8b440e8012a351aba328",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1",
-                "phpgram/framework-lib": "^0.3.2"
+                "phpgram/framework-lib": "^0.4.0"
             },
             "type": "library",
             "autoload": {
@@ -303,7 +303,7 @@
                 "php",
                 "phpgram"
             ],
-            "time": "2019-12-27T18:37:39+00:00"
+            "time": "2020-02-11T22:37:45+00:00"
         },
         {
             "name": "phpgram/phpgram",
