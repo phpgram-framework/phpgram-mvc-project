@@ -23,9 +23,10 @@
 	"require": {
 		"php": "^7.1",
 		"phpgram/phpgram": "^1.6.2",
-		"phpgram/framework": "^1.2.4",
+		"phpgram/framework": "^2.0.0",
 		"phpgram/framework-lib": "^0.4.0",
 		"phpgram/mvc-lib": "^0.0.4",
+		"phpgram/gram-nyholm-psr": "^1.0.0",
 		"pimple/pimple":"3.2.3"
 	},
 	"autoload": {
