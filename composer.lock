@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "058cd73e092f7ce596e42d76759ccce7",
+    "content-hash": "2bf0863547cb874bdd049842cc7235ff",
     "packages": [
         {
             "name": "nyholm/psr7",
@@ -172,16 +172,16 @@
         },
         {
             "name": "phpgram/framework",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram-framework.git",
-                "reference": "80b44786fed530ebd15dab559655d9020fbc6514"
+                "reference": "2b269596db9ee77792addfefe7622ea15625d03d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework/repository/archive.zip?sha=80b44786fed530ebd15dab559655d9020fbc6514",
-                "reference": "80b44786fed530ebd15dab559655d9020fbc6514",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework/repository/archive.zip?sha=2b269596db9ee77792addfefe7622ea15625d03d",
+                "reference": "2b269596db9ee77792addfefe7622ea15625d03d",
                 "shasum": ""
             },
             "require": {
@@ -211,7 +211,7 @@
                 "php",
                 "phpgram"
             ],
-            "time": "2020-02-14T00:23:44+00:00"
+            "time": "2020-02-15T13:16:16+00:00"
         },
         {
             "name": "phpgram/framework-lib",
@@ -256,45 +256,6 @@
                 "phpgram"
             ],
             "time": "2020-02-11T22:20:33+00:00"
-        },
-        {
-            "name": "phpgram/gram-nyholm-psr",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.com/grammm/php-gram/gram-nyholm-psr.git",
-                "reference": "659d524cb877625ab2f94a08150aa4c0852660b7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fgram-nyholm-psr/repository/archive.zip?sha=659d524cb877625ab2f94a08150aa4c0852660b7",
-                "reference": "659d524cb877625ab2f94a08150aa4c0852660b7",
-                "shasum": ""
-            },
-            "require": {
-                "nyholm/psr7": "1.2.0",
-                "nyholm/psr7-server": "^0.3.0",
-                "php": "^7.1",
-                "phpgram/framework": "^2.0.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Gram\\Nyholm\\Psr\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jörn Heinemann",
-                    "email": "joernheinemann@gmx.de"
-                }
-            ],
-            "description": "Uses nyholm/psr7 for phpgram/framework",
-            "time": "2020-02-14T00:33:24+00:00"
         },
         {
             "name": "phpgram/mvc-lib",

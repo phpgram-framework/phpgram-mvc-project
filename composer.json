@@ -2,7 +2,7 @@
 	"name": "phpgram/mvc",
 	"license": "MIT",
 	"type": "project",
-	"description": "A php mvc project build on top of phpgram",
+	"description": "A php mvc framework build on top of phpgram",
 	"keywords": [
 		"gram",
 		"phpgram",
@@ -23,10 +23,11 @@
 	"require": {
 		"php": "^7.1",
 		"phpgram/phpgram": "^1.6.2",
-		"phpgram/framework": "^2.0.0",
+		"phpgram/framework": "^2.0.1",
 		"phpgram/framework-lib": "^0.4.0",
 		"phpgram/mvc-lib": "^0.0.4",
-		"phpgram/gram-nyholm-psr": "^1.0.0",
+		"nyholm/psr7":"1.2.0",
+		"nyholm/psr7-server":"^0.3.0",
 		"pimple/pimple":"3.2.3"
 	},
 	"autoload": {

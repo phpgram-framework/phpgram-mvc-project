@@ -24,7 +24,7 @@
 
 - Php Template System
 
-- Basic Login, Authentication and Usermanagement via Php Session (or Redis Session with plugin)
+- Basic Login, Authentication and Usermanagement via Php Session (or Psr 16 Cache)
 
 - Basic Psr 7 Cookies
 
