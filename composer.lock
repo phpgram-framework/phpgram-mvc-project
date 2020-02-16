@@ -309,12 +309,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram.git",
-                "reference": "f0407eea2842a7abc07ef3d98e85492053968df3"
+                "reference": "a3bcb12e826e94fbf39977da6ba984709284d9d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram/repository/archive.zip?sha=f0407eea2842a7abc07ef3d98e85492053968df3",
-                "reference": "f0407eea2842a7abc07ef3d98e85492053968df3",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram/repository/archive.zip?sha=a3bcb12e826e94fbf39977da6ba984709284d9d7",
+                "reference": "a3bcb12e826e94fbf39977da6ba984709284d9d7",
                 "shasum": ""
             },
             "require": {
@@ -373,7 +373,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2020-01-26T20:44:18+00:00"
+            "time": "2020-02-16T11:06:33+00:00"
         },
         {
             "name": "pimple/pimple",
