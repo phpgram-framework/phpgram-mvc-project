@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2bf0863547cb874bdd049842cc7235ff",
+    "content-hash": "72b344e3e335cce0f15f58e2c39008f5",
     "packages": [
         {
             "name": "nyholm/psr7",
@@ -305,16 +305,16 @@
         },
         {
             "name": "phpgram/phpgram",
-            "version": "1.6.2",
+            "version": "1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram.git",
-                "reference": "a3bcb12e826e94fbf39977da6ba984709284d9d7"
+                "reference": "95c3bcc9239b51f1e7951066cc5e60bcc1fe3488"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram/repository/archive.zip?sha=a3bcb12e826e94fbf39977da6ba984709284d9d7",
-                "reference": "a3bcb12e826e94fbf39977da6ba984709284d9d7",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram/repository/archive.zip?sha=95c3bcc9239b51f1e7951066cc5e60bcc1fe3488",
+                "reference": "95c3bcc9239b51f1e7951066cc5e60bcc1fe3488",
                 "shasum": ""
             },
             "require": {
@@ -373,7 +373,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2020-02-16T11:06:33+00:00"
+            "time": "2020-02-18T20:03:18+00:00"
         },
         {
             "name": "pimple/pimple",
