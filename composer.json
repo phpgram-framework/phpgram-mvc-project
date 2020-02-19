@@ -22,7 +22,7 @@
 	],
 	"require": {
 		"php": "^7.1",
-		"phpgram/phpgram": "^1.6.3",
+		"phpgram/phpgram": "^1.7.0",
 		"phpgram/framework": "^2.0.1",
 		"phpgram/framework-lib": "^0.4.0",
 		"phpgram/mvc-lib": "^0.0.4",
