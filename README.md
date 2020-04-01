@@ -35,17 +35,23 @@
 #### via [composer](https://getcomposer.org/)
 
 `````bash
-$ composer create-project phpgram/mvc
+composer create-project phpgram/mvc
 `````
 
 ## Initialize / Set up
 
-1. copy file: env.config.php.dist and rename it to: env.config.php
+### Local
+
+1. copy file: env.local.php.dist and rename it to: env.local.php
 
 2. complete the **Database** and **Path** information
 	- for **ROOT_URL_PATH** = the relative Url Path (e.g.: `hello.de/my_folder/` -> `/my_folder` is the path)
 
 3. done :) 
+
+### Deploy
+
+Change the env.php to your deploy server
 
 ## [Documentation](https://gitlab.com/grammm/php-gram/phpgram-mvc-project/tree/master/.docs/index.md)
 

@@ -8,7 +8,11 @@ require_once "../vendor/autoload.php";
 /*
  * Env Configs
  */
-require_once "../env.config.php";
+if(file_exists("../env.local.php")) {
+	@require_once "../env.local.php";
+} else {
+	require_once "../env.php";
+}
 
 /*
  * Konstanten laden
