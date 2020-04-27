@@ -3,17 +3,8 @@ RewriteRule ^\.htaccess$ - [F]
 
 #RewriteBase /
 
-# Ausnahmen die nicht auf /public umgeleitet werden sollen
-RewriteCond %{REQUEST_URI} ^(storage|resources)/
-RewriteRule ^(.*)$ /$1 [L]
-
 # Leitet alle Requests auf Public weiter
 RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
 RewriteRule ^ %1 [L,NE,R=302]
 
 RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
-
-# Alle Seitenaufrufe auf die index.php umleiten
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.+)$ index.php [QSA]

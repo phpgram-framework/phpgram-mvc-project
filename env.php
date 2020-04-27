@@ -1,18 +1,23 @@
 <?php
-//Database
-//Database Host
+
+//Datenbank
+//für lokalen Betrieb anpassen!
+//Driver
+putenv("DB_DRIVER=mysql");
+//Host
 putenv("DB_HOST=127.0.0.1");
-//Database name
+//Port der Db
+putenv("DB_PORT=3306");
+//Datenbankname
 putenv("DB_NAME=");
-//charset
-putenv("DB_CHARSET=utf8");
-//Database user
+//DB user
 putenv("DB_USER=");
-//Database user Passwort
+//DB user Passwort
 putenv("DB_USER_PW=");
 
 //___________________________________________________________________
 
+//lokale Installation
 define("ROOTPATH",__DIR__.DIRECTORY_SEPARATOR);
 putenv("ROOT_URL=");
 putenv("ROOT_URL_PATH=");
