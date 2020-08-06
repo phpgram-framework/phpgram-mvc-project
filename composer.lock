@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cfb249386bab8b91f76b9706c866a8f8",
+    "content-hash": "a8a76ce181dfe8869c27c2109ddf74e4",
     "packages": [
         {
             "name": "nyholm/psr7",
@@ -172,21 +172,27 @@
         },
         {
             "name": "phpgram/framework",
-            "version": "2.0.1",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram-framework.git",
-                "reference": "4ec2d53289d45d446c354ac5460a03e767ae3622"
+                "reference": "cbe85fa0fe13b71a4b1da790cc0095d5c55d3f4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework/repository/archive.zip?sha=4ec2d53289d45d446c354ac5460a03e767ae3622",
-                "reference": "4ec2d53289d45d446c354ac5460a03e767ae3622",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework/repository/archive.zip?sha=cbe85fa0fe13b71a4b1da790cc0095d5c55d3f4c",
+                "reference": "cbe85fa0fe13b71a4b1da790cc0095d5c55d3f4c",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1",
-                "phpgram/phpgram": "^1.7.0"
+                "phpgram/phpgram": "^1.8.0"
+            },
+            "require-dev": {
+                "nyholm/psr7": "^1.2.1",
+                "nyholm/psr7-server": "^0.3.0",
+                "phpunit/phpunit": "8.3.5",
+                "pimple/pimple": "3.2.3"
             },
             "type": "library",
             "autoload": {
@@ -204,27 +210,28 @@
                     "email": "joernheinemann@gmx.de"
                 }
             ],
-            "description": "A factory for phpgram.",
+            "description": "A singleton factory for phpgram.",
             "keywords": [
                 "framework",
                 "gram",
                 "php",
-                "phpgram"
+                "phpgram",
+                "singleton"
             ],
-            "time": "2020-02-19T12:23:41+00:00"
+            "time": "2020-08-06T16:37:21+00:00"
         },
         {
             "name": "phpgram/framework-lib",
-            "version": "0.6.1",
+            "version": "0.6.3",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram-framework-lib.git",
-                "reference": "8c46340c265071ff0d35a7fe746555840140c758"
+                "reference": "ab930765724f17ed7139b28f0423d0be84c22538"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework-lib/repository/archive.zip?sha=8c46340c265071ff0d35a7fe746555840140c758",
-                "reference": "8c46340c265071ff0d35a7fe746555840140c758",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-framework-lib/repository/archive.zip?sha=ab930765724f17ed7139b28f0423d0be84c22538",
+                "reference": "ab930765724f17ed7139b28f0423d0be84c22538",
                 "shasum": ""
             },
             "require": {
@@ -255,7 +262,7 @@
                 "php",
                 "phpgram"
             ],
-            "time": "2020-04-27T14:12:52+00:00"
+            "time": "2020-05-19T18:01:03+00:00"
         },
         {
             "name": "phpgram/mvc-lib",
@@ -305,20 +312,21 @@
         },
         {
             "name": "phpgram/phpgram",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/grammm/php-gram/phpgram.git",
-                "reference": "08db87be0f6bd3ae5b7e77bdf0f147babb6c0581"
+                "reference": "22ec68590f4092fef529d1c8fcb534a75eb34b10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram/repository/archive.zip?sha=08db87be0f6bd3ae5b7e77bdf0f147babb6c0581",
-                "reference": "08db87be0f6bd3ae5b7e77bdf0f147babb6c0581",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram/repository/archive.zip?sha=22ec68590f4092fef529d1c8fcb534a75eb34b10",
+                "reference": "22ec68590f4092fef529d1c8fcb534a75eb34b10",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1",
+                "phpgram/route": "^1.8.0",
                 "psr/container": "^1.0.0",
                 "psr/http-factory": "^1.0",
                 "psr/http-message": "^1.0",
@@ -334,7 +342,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.7.x-dev"
+                    "dev-master": "1.8.x-dev"
                 }
             },
             "autoload": {
@@ -356,8 +364,6 @@
             "keywords": [
                 "PSR 17",
                 "api",
-                "async",
-                "asynchronous",
                 "di",
                 "framework",
                 "frameworks",
@@ -369,11 +375,59 @@
                 "phpgram",
                 "psr 11",
                 "psr 15",
-                "psr 7",
+                "psr 7"
+            ],
+            "time": "2020-08-06T16:30:59+00:00"
+        },
+        {
+            "name": "phpgram/route",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/grammm/php-gram/phpgram-route.git",
+                "reference": "3499813aa121680fe7ee0662519d0fc214700952"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/grammm%2Fphp-gram%2Fphpgram-route/repository/archive.zip?sha=3499813aa121680fe7ee0662519d0fc214700952",
+                "reference": "3499813aa121680fe7ee0662519d0fc214700952",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "8.3.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.8.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Gram\\Route\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jörn Heinemann",
+                    "email": "joernheinemann@gmx.de"
+                }
+            ],
+            "description": "A very fast, extendable and lightweight router",
+            "keywords": [
+                "gram",
+                "phpgram",
                 "router",
                 "routing"
             ],
-            "time": "2020-02-19T11:13:44+00:00"
+            "time": "2020-08-06T16:20:37+00:00"
         },
         {
             "name": "pimple/pimple",
